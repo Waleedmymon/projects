@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="object.js">
+</head>
+<body>
+    <script>
+        
+let student={name:"haasan",
+     Age:15,
+     course:"web development" }
+ document.writeln(student.name);
+//we can show only one value in objects
+
+ document.writeln( "<br> Name: "+student.name +" <br> Age  " + student.Age + " <br>  course:  " + student.course);
+
+//dom(document object model)
+
+let book={
+    Name:"mathematics",
+    Author:"Einstien",
+    Publishedyear:2004,
+    showDetails:function(){
+        console.log("The book name is "+ this.Name + "   The book author is "+ this.Author + "   the book publishedyear is "+ this.Publishedyear + "   the book title is "+ this.title)
+    }
+
+}
+
+book.title="intermediate";//add new property in object
+console.log(book.showDetails());
+
+// console.log(book.Name)
+
+//create employee object
+let employee={
+    name:"shakoor",
+    designation:"common_worker",
+    salary:30000
+}
+console.log(employee.name);
+console.log(employee.designation);
+
+//if salary greater than 25000 than print salary
+
+if(employee.salary>25000){
+    console.log(employee.salary)
+}
+else{
+    console.log("do not matched requirements")
+}
+    </script>
+</body>
+</html>

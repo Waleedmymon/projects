@@ -1,0 +1,223 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container{
+    width: 600px;
+    height: 750px;
+    border-radius: 12px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    
+
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: blue;
+    
+    
+
+
+}
+form a{
+    display: block;
+    margin-top: 5px;
+}
+form{
+    padding: 0;
+}
+.signup{
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+#para1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+pre{
+    text-align: justify;
+}
+#fname{
+    width: 275px;
+    height: 35px;
+    margin-left: 13px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: rgba(240, 248, 255, 0.681);
+    
+}
+#fname:hover{
+box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+
+
+#surname{
+    width: 275px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: rgba(240, 248, 255, 0.69);
+}
+#surname:hover{
+box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+
+#eml{
+    width: 560px;
+    height: 35px;
+    margin-left: 13px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: rgba(240, 248, 255, 0.557);
+}
+#eml:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+
+#pass{
+    width: 560px;
+    height: 35px;
+    margin-left: 13px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: rgba(240, 248, 255, 0.563);
+}
+#pass:hover{
+box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+#box1{
+    width: 186px;
+    height: 35px;
+    margin-left: 13px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#box1:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+#box2{
+    width: 186px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#box2:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+#box3{
+    width: 186px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#box3:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+#dob{
+    margin-left: 13px;
+    font-size: 20px;
+    
+
+}
+
+.mal{
+    width: 182px;
+    height: 35px;
+    margin-left: 13px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+
+}
+.mal:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.fem{
+    width: 182px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.fem:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.cus{
+    width: 182px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+
+}
+.cus:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.main{
+    display: flex;
+}
+#gen{
+    
+    margin-left: 13px;
+    font-size: 20px;
+}
+p{
+    margin-left: 13px;
+    font-size: 16px;
+}
+.buttn:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.buttn{
+    
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    background-color: rgba(0, 128, 0, 0.765);
+    color: white;
+    margin-left: 180px;
+    margin-bottom: 5px;  
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+
+}
+

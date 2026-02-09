@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom Tasks</title>
+    <style>
+        #box{
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        #btn1{
+            margin: 10px;
+            width: 50px;
+            height: 30px;
+
+        }
+        #btn2{
+            margin: 10px;
+            width: 50px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <img id="myImage" src="./Basic-HTML-Codes-for-Websites.webp" alt="image" width="300px" height="200px">
+    <br><br>
+
+  <button onclick="changeImage()">Change Image</button>
+
+    <h1 id="text">hey! this java script</h1>
+    <button id="change" onclick="update">click This</button>
+
+    <h2 id="tex1">web development</h2>
+
+    <div id="box">this is box</div>
+
+    <p id="para">this is shows hide and show </p>
+
+    <button onclick="hide()" id="btn1">hide</button>
+    <button onclick="show()" id="btn2">show</button>
+    <br><br>
+    <input id="inpbox" type="text" placeholder="Please enter your description">
+    <button id="content"  onclick="content()">content</button>
+    <p id="para1"></p>
+
+    <input id="inptext" type="text" placeholder="enter a text">
+    <button onclick="additems()">click</button>
+<ul id="mylist"></ul>
+    
+    <button onclick="switching()">toggle</button>
+    <script>
+        //task 1
+        document.getElementById("change");
+        let head1=document.getElementById("text");
+        let butn=document.getElementById("change")
+      
+      butn.onclick = function update(){
+        head1.innerText="hello this is java script DOM!";
+        }
+        
+        //task 2
+        document.getElementById("text1");
+        let head2=document.getElementById("tex1");
+        head2.style.color="blue";
+        head2.style.fontSize="30px";
+
+        //task 3
+
+
+        document.getElementById("box");
+        let div=document.getElementById("box");
+        div.style.backgroundColor="green";
+       
+
+        //task 4
+        let para1=document.getElementById("para");
+         function hide(){
+            para.style.display="none";
+        }
+        function show(){
+            para.style.display="block";
+        }
+
+
+        //task 5
+         let toggle = false;
+
+  function changeImage() {
+    document.getElementById("myImage").src="insert-image-html.webp";
+    let  img = document.getElementById("myImage");
+
+    if (toggle) {
+      img.src = "Basic-HTML-Codes-for-Websites.webp";
+    } else {
+      img.src = "insert-image-html.webp";
+    }
+
+    toggle = !toggle;
+  }
+//task 6
+  let switc=false;
+ function content(){
+    let inpbox=document.getElementById("inpbox");
+    let para2=document.getElementById("para1");
+    let describe=inpbox.value;
+  if(describe===""){
+    alert("please enter your description");
+    return;
+  }
+  
+    paragraph=document.createElement("p");
+    paragraph.textContent=describe;
+  
+  para2.appendChild(paragraph);
+  inpbox.value="";
+  
+  }
+
+  //task 7
+  function additems(){
+    let inp=document.getElementById("inptext");
+    let list=document.getElementById("mylist");
+
+    let text=inp.value;
+    if(text===""){
+        alert("please enter some text");
+        return;
+    }
+    let li=document.createElement("li");
+    li.textContent=text;
+
+    list.appendChild(li);
+  inp.value="";
+  }
+  
+
+  //task 8
+  let color="white";
+
+  function switching(){
+
+    if(color){
+        document.body.style.backgroundColor="grey";
+    }
+    else{
+        document.body.style.backgroundColor="white";
+    }
+    color = !color;
+  }
+  
+
+    </script>
+</body>
+</html>
